@@ -64,10 +64,16 @@ body{
 
 }
 
+
 .controls button{
     background-color: transparent;
     padding: 1rem;
     border: none;
+    transition: transform .3s; 
+}
+
+.controls button:hover{
+    transform: scale(1.2); 
 }
 
 .controls i{
